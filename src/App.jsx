@@ -13,7 +13,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login/*" element={<Login />} /> 
+          */rotas com sub rotas precisam desse  /* acima /*
         </Routes>
         <Footer />
       </BrowserRouter>
